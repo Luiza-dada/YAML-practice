@@ -1,0 +1,22 @@
+# Информация о пользователе
+user:
+  name: "Louisa"
+  age: 18
+  settings:
+    theme: "dark"
+    notifications: true
+
+# Строка со специальными символами
+special_text: "@developer:active important"
+
+# Экранирование одинарной кавычки
+message: 'It''s a beautiful day'
+
+# Блочный список
+subjects:
+  - Design
+  - HTML
+  - CSS
+
+# Список в строчном формате
+colors: [blue, purple, white]
