@@ -1,0 +1,14 @@
+# Основная информация о проекте
+project_name: "My First YAML Project"
+version: 1.0
+
+# Настройки проекта
+is_active: true
+is_private: false
+description: null
+
+# Список используемых технологий
+technologies:
+  - HTML
+  - CSS
+  - YAML
