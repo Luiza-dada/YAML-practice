@@ -1,0 +1,32 @@
+# Спецификация рабочего процесса
+name: "Website Build Workflow"
+
+# Основные настройки
+workflow:
+  enabled: true
+  runner:
+    operating_system: ubuntu-latest
+    timeout_minutes: 30
+
+  tasks:
+    - name: "Install dependencies"
+      settings:
+        version: "latest"
+        required: true
+
+    - name: "Build website"
+      settings:
+        output: "dist"
+        required: true
+
+# Список окружений
+environments:
+  - development
+  - testing
+  - production
+
+# Многострочный текст без завершающего переноса строки
+script: |-
+  echo "Starting website build"
+  echo "Checking project files"
+  echo "Build completed successfully"
